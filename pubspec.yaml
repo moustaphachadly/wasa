@@ -10,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   wave: ^0.2.2
+#  just_audio: ^0.9.28
+  collection: ^1.16.0
+  audioplayers: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +21,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/piano_notes/
