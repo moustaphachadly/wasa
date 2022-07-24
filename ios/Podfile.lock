@@ -1,14 +1,28 @@
 PODS:
+  - AudioKit (4.11.2):
+    - AudioKit/Core (= 4.11.2)
+    - AudioKit/UI (= 4.11.2)
+  - AudioKit/Core (4.11.2)
+  - AudioKit/UI (4.11.2):
+    - AudioKit/Core
   - audioplayers_darwin (0.0.1):
     - Flutter
   - Flutter (1.0.0)
   - path_provider_ios (0.0.1):
+    - Flutter
+  - sound_generator (0.0.1):
+    - AudioKit (< 5)
     - Flutter
 
 DEPENDENCIES:
   - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/ios`)
   - Flutter (from `Flutter`)
   - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - sound_generator (from `.symlinks/plugins/sound_generator/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AudioKit
 
 EXTERNAL SOURCES:
   audioplayers_darwin:
@@ -17,12 +31,16 @@ EXTERNAL SOURCES:
     :path: Flutter
   path_provider_ios:
     :path: ".symlinks/plugins/path_provider_ios/ios"
+  sound_generator:
+    :path: ".symlinks/plugins/sound_generator/ios"
 
 SPEC CHECKSUMS:
+  AudioKit: 57cc61d708f085763a031e5c3f87adae21dc4b59
   audioplayers_darwin: 387322cb364026a1782298c982693b1b6aa9fa1b
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  sound_generator: 9dbd7c16f7023add0e875c150c6e64ed47a71b6a
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
 
 COCOAPODS: 1.11.2

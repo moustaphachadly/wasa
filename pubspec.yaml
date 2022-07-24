@@ -13,6 +13,7 @@ dependencies:
 #  just_audio: ^0.9.28
   collection: ^1.16.0
   audioplayers: ^1.0.1
+  sound_generator: ^0.0.9
 
 dev_dependencies:
   flutter_test:
