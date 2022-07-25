@@ -60,7 +60,7 @@ class _ListCellState extends State<ListCell> {
                 top: _top,
                 duration: const Duration(milliseconds: 150),
                 child: RoundedBox(
-                  color: Colors.pinkAccent,
+                  color: Colors.white,
                   child: widget.child,
                 ),
               ),
