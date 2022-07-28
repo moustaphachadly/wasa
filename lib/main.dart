@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'background_view.dart';
+import 'games/bouncing_circle.dart';
 import 'games/circles.dart';
 import 'games/piano.dart';
 import 'horizontal_list/horizontal_list.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
             HorizontalList(gameEntries: [
               GameEntry(Image.asset('assets/images/games/piano.png',), Piano()),
               GameEntry(Image.asset('assets/images/games/circles.png',), Circles()),
+              GameEntry(Image.asset('assets/images/games/concentric_circles.png',), BouncingCircle()),
             ],),
           ],
         ),
