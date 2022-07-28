@@ -14,6 +14,7 @@ dependencies:
   collection: ^1.16.0
   audioplayers: ^1.0.1
   sound_generator: ^0.0.9
+  positioned_tap_detector_2: ^1.0.4
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +26,4 @@ flutter:
   assets:
     - assets/piano_notes/
     - assets/images/games/
+    - assets/audios/
